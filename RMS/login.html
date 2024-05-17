@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="stle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+<body id="body">
+        <!-------------------------------navbar-------------------------------->
+        <div class="header">
+        <div class="box">
+        <nav>   
+         <ul>
+             <li><a href="Index.html">HOME</a></li>
+             <li><a href="reg.html">REGISTER</a></li>
+             <li><a href="login.html">LOGIN</a></li>
+              </ul>
+         </nav>
+        </div>
+        </div>
+    <!-----------------------------login-Page---------------------------->
+    <div class="login-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div>
+                             <span onclick="login()">Login</span><br><br>
+                            <!--  <span onclick="register()">Register</span>-->
+                            <form id="Regform"></form>
+                            <div>
+                                <label for="uname"><b>Email</b></label><br><br>
+                                <input type="text" placeholder="Email" name="uname"><br><br>
+                                <label for="psd"><b>Password</b></label><br><br>
+                                <input type="password" placeholder="password" name="password"><br><br>
+
+                                <button class="button">Login</button>
+                            </div> 
+                            <br><a href="forget.html">Forget Password?</a>
+                        </form> 
+                         <!-- <form id="Regform">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+                            <a href="">Forget Password ?</a> 
+
+                        </form>-->
+                    </div>
+                </div>
+          </div>
+        </div>
+    </div>
+
+    
+   </body>
+</html>

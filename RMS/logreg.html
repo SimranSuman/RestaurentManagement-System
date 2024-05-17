@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and register</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body id="body">
+    <!-------------------------------navbar-------------------------------->
+        <!--<div class="box">
+        <nav>   
+         <ul>
+            <li><a href="home.html">HOME</a></li>
+             <li><a href="logreg.html">LOGIN</a></li>
+              </ul>
+         </nav>
+        </div>-->
+       
+     <!-----------------login&reg-page---------------------->
+            <div class="hero">
+                <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group" action="loginconnect.php" method="post">
+                    <input type="text" class="input-field" placeholder="Enter Your Email_Id" name="email_id" required><br>
+                    <input type="password" class="input-field" placeholder="Password" name="pass" required><br><br>
+                    <!--<input type="checkbox" class="check-box"><span>Remember Password</span>-->
+                    <button type="submit" class="submit-btn">LOGIN</button>
+                    <br><br>
+                    <center><a href="forget.php">Forget Password?</a></center>
+                    <br><br>
+                    <button type="submit" class="submit-btn">REGISTER</button>
+        
+                    </form>
+                    <form id="register" class="input-group" action="registerconnect.php" method="post">
+                        <input type="text" class="input-field" placeholder="User Name" name="username" required><br>
+                        <input type="text" class="input-field" placeholder="Enter Your Email_Id" name="email_id" required><br>
+                        <input type="date" class="input-field" placeholder="Date-of-Birth" name="dob" required><br>
+                        <input type="number" class="input-field" placeholder="Mobile No" name="mobile_no" required><br>
+                        <input type="password" class="input-field" placeholder="Create Password" name="pass" required><br><br>
+                        <!---<input type="checkbox" class="check-box"><span>i agree to the terms</span>-->
+                        <button type="submit" class="submit-btn">REGISTER</button>
+                        <br>
+            
+                        <center><p1>Alredy have a account ?</p1></center><br>
+                        <button type="submit" class="submit-btn">LOGIN</button>
+                        
+                </div>
+                <!---------------------------------footer-use-------------------------->
+    
+                <div class="outer-footer">
+                    @Copyright 2022 :- All Right Reserved
+                 </div>
+            </div>
+        </div>
+        
+        
+    
+           <script>  
+                var x=document.getElementById("login");
+                var y=document.getElementById("register");
+                var z=document.getElementById("btn");
+        
+                function register(){
+                    x.style.left="-400px";
+                    y.style.left="50px";
+                    z.style.left="110px";
+                }
+                function login(){
+                    x.style.left="50px";
+                    y.style.left="450px";
+                    z.style.left="0px";
+                }
+              </script>
+        
+     
+</body>
+</html>

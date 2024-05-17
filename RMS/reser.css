@@ -1,0 +1,218 @@
+/*---------------------------------------------index-page----------------------------*/
+
+#body{
+  font-family: latha;
+  color:black;
+  background:url(min.jpg)no-repeat;
+    background-size:cover;
+}
+
+.dropdown{
+  margin:  0 auto;
+  background-color: burlywood;
+  
+}
+nav{
+  height: 5px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 5px;
+  background-color: burlywood;
+}
+nav ul li{
+  margin: 20px auto;
+  padding: 13px;
+ /* position: relative;
+  list-style: none;*/
+  display: inline-block;
+
+}
+ul li a{text-decoration: none;
+  color: black;
+}
+ ul li:hover{background-color: green;}
+ ul li a:hover{color:black;}
+
+nav ul li a{
+  display: block;
+  padding: 0 10px;
+  color: white;
+  text-decoration: none;
+  line-height: 10px;
+  font-size: 20px;
+}
+nav ul ul{
+  position: absolute;
+  top: 60px;
+  display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+  width: 160px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/*.wd{
+ width: 300px;
+ height: 539px;
+ background-color: black;
+ opacity: 0.9;
+ padding: 55px;
+ }
+
+.wd{
+ width: 300px;
+ height: 539px;
+ background-color: black;
+ opacity: 0.9;
+ padding: 55px;
+ }
+
+.wd h1{
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 100px;
+}
+
+wd h4{
+ text-align: justify;
+ color: darkgray;
+ font-weight: normal;
+}
+
+.wd h2{
+text-align: center;
+text-transform: uppercase;
+font-weight: normal;
+margin: 40px auto;
+}
+/*.header{
+  background-color:ghostwhite;
+    margin: 1px;
+  border-bottom: 90px solid #c1bdb1;
+  }*/
+
+
+/*------------------------------------------reservation--------------------------------*/
+
+.contain h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 55px;
+  text-align: left;
+  color:white;
+  background-color: burlywood;
+}
+.input-row{
+  display: flex;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.input-row .input-group{
+flex-basis: 40%;
+
+}
+input{
+width: 50%;
+border: none;
+border-bottom: 1px solid whitesmoke;
+outline: none;
+padding-bottom: 10px;
+font-size: 15px;
+}
+textarea{
+width: 28px;
+border: 1px solid whitesmoke;
+outline: none;
+padding: 5px;
+box-sizing: border-box;
+}
+label{
+margin-bottom: 10px;
+display: block;
+color:whitesmoke;
+font-size: 25px;
+
+}
+/*.submit-btn{
+width: 50%;
+padding: 10px 30px;
+margin-right: 300px;
+color:white;
+cursor: pointer;
+display: block;
+margin: auto;
+background: linear-gradient(to right,#000,#A52A2A);
+border: 0;
+outline: none;
+border-radius: 20px;
+
+}*/
+.submit-btn
+{
+margin-top: 80px;
+background: transparent;
+background: linear-gradient(to right,#000,#A52A2A);
+color:white;
+width: 200px;
+padding: 15px;
+font-size: 18px;
+border-radius: 100px;
+cursor: pointer;
+display: block;
+border: 0;
+outline: none;
+
+}
+
+
+/*.reset-btn
+{
+  margin-top: 350px;
+margin-right: 200px;
+background: transparent;
+background: linear-gradient(to right,#000,#A52A2A);
+color:white;
+width: 200px;
+padding: 15px;
+font-size: 18px;
+border-radius: 100px;
+cursor: pointer;
+display: block;
+border: 0;
+outline: none;
+}*/
+
+/*.form-box{
+  width: 650px;
+  height: 510px;
+  position: relative;
+  margin: 6% auto;
+  background: white;
+  padding: 5px;
+  overflow: hidden;
+}*/
+/*---------------------------------------------------------------------footer-use-------------------------------------------*/
+ 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.outer-footer
+{
+  padding: 20px;
+  text-align: center;
+  margin-top: 22px;
+  color: black;
+  font-size: 18px;
+  background-color: burlywood;
+}

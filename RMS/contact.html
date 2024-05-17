@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="cont.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body id="body">
+    <!-------------------------------navbar-------------------------------->
+    <div class="dropdown">
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="reservation.php">RESERVATION  </a></li>
+                <li><a href="menu.html">ORDER </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+                <li><a href="#">MY ORDER <i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="orddetail.php">Reservation_Detail</a></li>
+                        <li><a href="foodorderlist.php">Food_Order</a></li>
+                    </ul>
+                </li>
+                <li><a href="logreg.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+  
+    <!------------------------contact-page----------------------------------------->
+    <div class="contain">
+        <center><h1><u><b>Contact Us</b></u></h1></center></div>
+        <!--<p>We would love to respond to your queries and help you succeed.Feel 
+            free to get in touch with us.</p>-->
+    <div class="contact-box">
+        <div class="contact-left">
+          <u><h1>Sent Your Request</h1></u>
+          <form action="contact.php" method="post">
+              <div class="input-row">
+                  <div class="input-group">
+                      <label><b>Name</b></label>
+                      <input type="text" placeholder="Enter Name" name="name" required>
+                  </div> 
+                       
+                  <div class="input-group">
+                    <label><b>Phone</b></label>
+                    <input type="number" placeholder="+1 415 520 3214" name="number" required>
+                </div> 
+
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label><b>Email</b></label>
+                        <input type="email" placeholder="john12@gmail.com" name="email" required>
+                    </div> 
+                         
+                    <div class="input-group">
+                      <label><b>Subject</b></label>
+                      <input type="text" placeholder="Product Demo" name="subject" required>
+                  </div> 
+
+                  </div>
+                  <label><b>Message</b></label>
+                  <textarea  rows="5" placeholder="Your Messsage" name="message" required></textarea>
+                  <!--<button type="submit">SEND</button>-->
+                  <button type="submit" class="submit-btn">SEND</button>
+          </form>
+        </div>
+     <div class="contact-right">
+         <u><h1>Reach Us</h1></u>
+         <table>
+             <tr>
+                 <td>Email</td>
+                 <td>contactus@example.com</td>
+             </tr>
+             <tr>
+                <td>Phone No</td>
+                <td>+1 451 112 1245</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>#121,Juran Chapra Road,Imli Chatti<br>
+                    Muzaffarpur,Bihar<br>
+                </td>
+            </tr>
+         </table>
+     </div>
+    </div>
+    </div>
+
+
+    <!-----------------------------------footer-use----------------------------->
+    <div class="outer-footer">
+        @Copyright 2022 :- All Right Reserved
+    </div>
+</body>
+</html>

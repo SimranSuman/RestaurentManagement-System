@@ -1,0 +1,137 @@
+#body{
+    font-family: latha;
+    color:black;
+    background: url(min.jpg);
+      background-size:cover;
+  }
+
+  .box{width: 800px;
+    float:right;
+    border: 2px solid none;
+  }
+
+.box ul li{
+   width: 90px;
+   float: left;
+   margin: 15px auto;
+   padding: 18px;
+   font-size: 15px;
+   text-align: right;
+   text-decoration: none;
+   list-style-type: none;
+
+   }
+.box ul li a{text-decoration: none;
+   color: white;
+     }
+
+.box ul li:hover{background-color: green;}
+.box ul li a:hover{color:black;}
+
+/*.wd{
+   width: 300px;
+   height: 539px;
+   background-color: black;
+   opacity: 0.9;
+   padding: 55px;
+   }
+
+.wd{
+   width: 300px;
+   height: 539px;
+   background-color: black;
+   opacity: 0.9;
+   padding: 55px;
+   }
+
+.wd h1{
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 100px;
+  }
+
+wd h4{
+   text-align: justify;
+   color: darkgray;
+   font-weight: normal;
+  }
+
+.wd h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+  }
+  /*.header{
+    background-color:ghostwhite;
+      margin: 1px;
+    border-bottom: 70px solid #c1bdb1;
+    }*/
+
+/*-------------------------------------about----------------------------------*/
+
+.contain h1{
+  font-size: 60px;
+  /*letter-spacing: 3.5px;*/
+  margin-top: 25px;
+  text-align: left;
+  color:white;
+}
+    .wrapper{
+        width: 100%;
+        min-height: 70vh;
+        overflow: hidden;
+
+    
+    }
+    .row{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .image-section{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .image-section img{
+        width: 80%;
+        height: auto;
+    }
+    .content h1{
+      font-size: 60px;
+      /*letter-spacing: 3.5px;*/
+      margin-top: 15px;
+      text-align:left;
+      color:white;
+    }
+    .content h1{
+        font-size: 60px;
+        text-align: left;
+        color: white;
+        margin-top: 10px;
+    }
+    .content p{
+        font-size: 35px;
+        font-family: serif;
+        margin-top: 2px;
+        line-height: 1.2;
+        color:white;
+        margin-top: 12px;
+    } 
+   
+    /*---------------------------------------------------------------------footer-use-------------------------------------------*/
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  .outer-footer
+  {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color:burlywood;
+  }
